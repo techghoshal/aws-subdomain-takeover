@@ -1,0 +1,25 @@
+id: subtakeOver
+
+info:
+  name: aws3-subdomain-takeover
+  author: Tech Ghoshal
+  description: find aws subdomain to vulnerable subdomain takeover  
+
+http:
+  - method: GET
+    path:
+      - "{{RootURL}}"
+
+    matchers-condition: and
+    matchers:
+      - type: word
+        part: body
+        words:
+          - 'Code: NoSuchBucket'
+      - type: word
+        part: body
+        words:
+          - 'Message: The specified bucket dose not exist'
+      - type: status
+        status:
+          - 404
