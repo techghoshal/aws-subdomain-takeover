@@ -1,12 +1,15 @@
 
-<h1 align="center" color="green">
+<h1 align="center">
 AWS Subdomain Takeover
+</h1>
 <p align="center" >
 <img alt="YouTube Channel Subscribers" src="https://img.shields.io/youtube/channel/subscribers/UCPNhwkJ4zc3FXGn-Rba6Hvg?style=social">
 <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/techghoshal?style=social">
 </p>
 
+
 ### Used Easy
+
 
 
 ```bash
